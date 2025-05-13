@@ -371,3 +371,6 @@ CONFIG_SCSI_SNIC=m
 
 # Add ib_umad module
 CONFIG_INFINIBAND_USER_MAD=m
+
+# CephFS with SELinux labels
+CONFIG_CEPH_FS_SECURITY_LABEL=y
